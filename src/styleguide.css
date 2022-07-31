@@ -1,0 +1,33 @@
+/* Variables */
+
+:root {
+    --black-2: rgba(0, 0, 0, 0.51);
+    --black: rgba(0, 0, 0, 1);
+    --mantis: rgba(135, 199, 110, 1);
+    --white: rgba(255, 255, 255, 1);
+
+    --font-size-xxs: 14px;
+    --font-size-xs: 16px;
+    --font-size-s: 18px;
+    --font-size-m: 30px;
+
+    --font-family-baloo_2: "Baloo 2";
+}
+
+/* Classes */
+
+.baloo2-normal-black-16px-2 {
+    color: var(--black-2);
+    font-family: var(--font-family-baloo_2);
+    font-size: var(--font-size-xs);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.baloo2-normal-black-16px {
+    color: var(--black);
+    font-family: var(--font-family-baloo_2);
+    font-size: var(--font-size-xs);
+    font-weight: 400;
+    font-style:normal;
+}
